@@ -74,6 +74,8 @@ nav ul li a:hover {
 }
 #content {
 	display: none;
+	left: -50px;
+	opacity: 0.1;
 }
 h3 {
 	font-size: 100%;
