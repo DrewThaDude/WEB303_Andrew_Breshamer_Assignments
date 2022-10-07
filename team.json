@@ -1,0 +1,27 @@
+ [
+		{
+			"name": "Phil Aylesworth",
+			"position": "Vice President of Accounting",
+			"bio": "With over 15 years of public accounting and business advisory service experience in the Tongas, Ecuador, Canada, Botswana and the US, Phil is the most seasoned and diversed member of the XY Corp. team."
+		},
+		{
+			"name": "Darren Takaki",
+			"position": "Director of Development",
+			"bio": "Darren is the Director of Development for XY Corp. Darren creates learning materials for XY Corp. as well as consulting for customers to integrate Solutions into their production pipeline and business processes."
+		},
+		{
+			"name": "Andrew Steele",
+			"position": "Director of Human Resources",
+			"bio": "Andrew joined XY Corp. in October 1999 as XY Corp's first Human Resources Director. As such, he has overall human resources responsibility for XY Corp's operations worldwide."
+		},
+		{
+			"name": "Mike Girimonte",
+			"position": "Vice President of Sales and Marketing",
+			"bio": "Mike serves as the Vice President of Sales and Marketing for XY Corp. In this role Mike oversees XY Corp's marketing and corporate communications efforts worldwide."
+		},
+		{
+			"name": "Andrew Breshamer",
+			"position": "Student",
+			"bio": "We really do be out here.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in faucibus ligula. Etiam massa libero, maximus vel magna a, porta consequat ligula. Aenean vitae quam magna. Quisque ut tincidunt odio, ac semper ante. Ut eleifend quis ligula non auctor. In maximus ante felis, blandit ullamcorper dolor vulputate a. Etiam volutpat risus elit, sit amet aliquam neque ultricies ut. Suspendisse semper velit a tortor sollicitudin imperdiet. Nullam lectus leo, faucibus in nulla sit amet, fringilla congue turpis. Donec non sodales lacus. Morbi ultricies porttitor lobortis. Aenean luctus ex sit amet auctor semper. Proin et tincidunt augue. Pellentesque in neque libero. Suspendisse consectetur odio vitae vulputate elementum. Vestibulum vel rhoncus neque. Donec nibh est, mollis pulvinar felis sit amet, feugiat finibus risus. Pellentesque nec ultrices mi. Donec ut sem tortor. Phasellus facilisis leo ut odio mollis viverra. In faucibus efficitur tortor interdum placerat. Cras consectetur magna sed faucibus pellentesque. Ut interdum pharetra nibh sit amet dignissim. In hac habitasse platea dictumst. Proin fringilla ligula vitae erat consequat, a interdum sapien malesuada. Vestibulum ut mauris egestas ipsum dapibus maximus. Duis egestas nulla sit amet dolor rutrum ultrices a nec mauris. Donec a magna id lorem lobortis egestas eget ac orci. Donec auctor nisl sed quam imperdiet aliquet. Quisque elementum consectetur tincidunt. Fusce diam ligula, efficitur eu ex eget, imperdiet tristique magna. Fusce ut nunc sit amet arcu volutpat elementum. Cras eu lobortis diam, tristique convallis est. Aenean non risus vel metus lobortis egestas et eget est. Mauris sit amet euismod ligula. Maecenas vitae auctor neque, ut rutrum est. Curabitur ut ex ut nisi varius consequat. In hac habitasse platea dictumst. Nunc et magna id dolor hendrerit ornare. Vivamus porta turpis sem, ut facilisis risus scelerisque non. "
+		}
+	]
