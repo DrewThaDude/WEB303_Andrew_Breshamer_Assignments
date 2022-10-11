@@ -13,7 +13,7 @@ function RetrieveData() {
             console.log(data[0]);
             $.each(data[i], function(ii) { //loop through each child object for tag insertion
                 //console.log(ii);
-                $(`<h2>${valueArray[ii]}</h2>`).appendTo("div#team");
+                $(`<h2>${data[ii]}</h2>`).appendTo("div#team");
             });
         });
     });
