@@ -10,7 +10,7 @@ function RetrieveData() {
         //console.log(data);
         $.each(data, function(i) {//loop through each object for JSON data
             let valueArray = data[i];
-            console.log(valueArray);
+            //console.log(valueArray);
             $.each(valueArray, function(ii) { //loop through each child object for tag insertion
                 //console.log(ii);
                 $(`<h2>${data[ii]}</h2>`).appendTo("div#team");
