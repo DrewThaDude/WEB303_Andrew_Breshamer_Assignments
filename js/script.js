@@ -9,6 +9,7 @@ function RetrieveData() {
     $.getJSON("team.json", function(data) { //why not "..//team.json"?
         //console.log(data);
         $.each(data, function(i, currentArray) {//loop through each object for JSON data
+            console.log(i);
             $.each(currentArray, function() { //loop through each child object for tag insertion
                 $(`<h2>${currentArray.name}</h2>`).appendTo("div#team");
                 $(`<h5>${currentArray.position}</h5>`).appendTo("div#team");
