@@ -23,10 +23,11 @@ function RetrieveDataAJAX() {
         dataType: 'JSON',
         data: 'data',
         beforeSend: function() {
-            $('<p>currently loading...</p>').appendTo("div#team");
+            $('<p id="temp">currently loading...</p>').appendTo("div#team");
         },
         success: function(data) {
-            console.log(data);
+            //console.log(data);
+            $('p#temp').remove();
             $.each(data, function(i ,currentArray) {
                 $(`<h2>${currentArray.name}</h2>`).appendTo("div#team");
                 $(`<h5>${currentArray.position}</h5>`).appendTo("div#team");
