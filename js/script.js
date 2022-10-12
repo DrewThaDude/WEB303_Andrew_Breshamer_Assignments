@@ -20,7 +20,7 @@ function RetrieveDataAJAX() {
     $.ajax({
         url: "team.json", 
         type: 'GET',
-        dataType: 'html',
+        dataType: 'JSON',
         data: 'data',
         beforeSend: function() {
             $('<p>currently loading...</p>').appendTo("div#team");
