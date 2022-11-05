@@ -1,4 +1,112 @@
+/* 
+    font-family: 'DM Serif Display', serif;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Yeseva One', cursive;
+*/
+/*** main content ***/
 html, body{
     margin: 0;
     padding: 0;
+}
+body { background-color: #F9F5E3; }
+main {
+    max-width: 960px;
+    margin: auto;
+    background-color: #e6d1a7;
+}
+h1, h2, h3, h4 { font-family: 'DM Serif Display', serif; }
+p, span { font-family: 'Noto Serif', serif; }
+.accordian-panel {
+    display: none;
+}
+.nav-bar {
+    /* position: fixed; */
+    /* z-index: 10; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+nav > a {
+    font-family: 'Yeseva One', cursive;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    margin: auto;
+    width: calc(100% / 2);
+}
+h1 {
+    color: #0E273C;
+    font-size: 48px;
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+h3 { 
+    font-size: 28px; 
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+h4 {
+    font-size: 18px; 
+    padding: 5px 0 5px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+main > p.bio {
+    font-size: 16px; 
+    padding: 5px 20px 5px 20px;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+#accordian > li:hover > * {
+    background-color: #A98743;
+}
+#accordian {
+    width: 640px;
+    margin: 0 auto;
+}
+#accordian > li > a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+}
+.danny-peace {
+    width: 100%;
+    filter: grayscale(95);
+}
+figure > img {
+    min-width: 100%;
+    max-width: 100%;
+}
+figcaption {
+    clear: both;
+}
+#sources > ul {
+    width: 960px;
+    margin: 0 auto;
+}
+#sources > ul > li {
+    /* text-align: center; */
+    padding: 15px 10px 15px 10px;
+}
+
+/*** header ***/
+nav { background-color: #A98743; }
+
+/*** misc ***/
+a {text-decoration: none }
+a:link { color: white }
+a:visited { color: #0E273C }
+a:hover { color: #4b7191 }
+a:active { color: #4b7191 }
+.container {
+    width: 100%;
 }
